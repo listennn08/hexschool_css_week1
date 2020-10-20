@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +52,7 @@ table {
 body {
   width: 100vw;
   overflow-x: hidden;
+  font-family: 'Noto Sans TC', sans serif;
 }
 
 .header, .container, .footer-inner {
@@ -104,7 +106,7 @@ body {
   padding: 24px;
 }
 
-.skill-inner .subtitle, .skill-inner .en, .skill-inner li, .footer-inner .subtitle, .footer-inner .en, .footer-inner li {
+.skill-inner .subtitle, .skill-inner .en, .skill-inner li, .skill-inner a, .footer-inner .subtitle, .footer-inner .en, .footer-inner li, .footer-inner a {
   color: #fff;
 }
 
@@ -182,6 +184,7 @@ body {
 .footer-inner img {
   width: 48px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .footer-inner img:not(:last-of-type) {

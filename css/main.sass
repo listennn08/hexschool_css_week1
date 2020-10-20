@@ -46,9 +46,11 @@ table
 	border-spacing: 0
 
 // css reset
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap')
 body
   width: 100vw
   overflow-x: hidden
+  font-family: 'Noto Sans TC', sans serif
 .header, .container, .footer-inner
   width: 1200px
   margin: 0 auto 48px
@@ -86,7 +88,7 @@ body
 .skill-inner, .footer-inner
   margin: 0 auto
   padding: 24px
-  .subtitle, .en, li
+  .subtitle, .en, li, a
     color: #fff
   .subtitle
     text-align: center
@@ -137,5 +139,6 @@ body
   img
     width: 48px
     display: inline-block
+    cursor: pointer
     &:not(:last-of-type)
       margin-right: 24px

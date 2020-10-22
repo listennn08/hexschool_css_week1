@@ -53,13 +53,14 @@ body
   font-family: 'Noto Sans TC', sans serif
 .header, .container, .footer-inner
   width: 1200px
-  margin: 0 auto 48px
+  margin: 0 auto
 .title
   font-size: 80px
   border-bottom: 2px solid #000
   margin: 67px 0 48px
   padding: 17px
-
+.img
+  margin-bottom: 48px
 .subtitle
   font-size: 32px
   line-height: 43px
@@ -86,7 +87,6 @@ body
 .skill, .footer
   background-color: #415165
 .skill-inner, .footer-inner
-  margin: 0 auto
   padding: 24px
   .subtitle, .en, li, a
     color: #fff
@@ -133,12 +133,19 @@ body
     text-align: center
     li
       margin-bottom: 16px
+      a
+        text-decoration: none
+        transition: all .2s
+        &:hover
+          color: #ddd
+          text-decoration: underline
   .footer-img
     width: 204px
     margin: 0 auto 36px
-  img
-    width: 48px
-    display: inline-block
-    cursor: pointer
-    &:not(:last-of-type)
-      margin-right: 24px
+    ul
+      li
+        display: inline
+        &:not(:last-of-type)
+          margin-right: 24px
+        img
+          width: 48px
